@@ -1,1 +1,21 @@
+/*
+ * Q1: Calculate sum of first N natural numbers
+ * Day-1 | Admission No: 25CSAIM290
+ */
 
+#include <stdio.h>
+
+int main() {
+    int n, sum = 0;
+
+    printf("Enter a positive integer N: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        sum += i;
+    }
+
+    printf("Sum of first %d natural numbers = %d\n", n, sum);
+
+    return 0;
+}
